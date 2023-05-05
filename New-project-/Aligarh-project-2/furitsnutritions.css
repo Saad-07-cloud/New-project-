@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+nav{
+    background-color: rgb(42, 39, 39);
+}
+nav .logo{
+    float:left;
+    padding-top: 1em;
+    padding-left: 0.85em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+}
+nav ul a{
+    float:right;
+    padding: 1em;
+    margin-right: 0.67em;
+    text-decoration: none;
+}
+nav ul a li{
+    color: aliceblue;
+    padding: 0.1em;
+    font-size: 17px;
+}
+nav ul a:hover{
+    background-color: rgba(186, 191, 196, 0.742);
+}
